@@ -1,0 +1,62 @@
+
+.button {
+    border-radius:0.25rem;
+    font-weight:500;
+    display:-webkit-inline-box;
+    display:-webkit-inline-flex;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-transition:all 250ms;
+    transition:all 250ms;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    position:relative;
+    white-space:nowrap;
+    vertical-align:middle;
+    line-height:1.2;
+    outline:none;
+    height:2.5rem;
+    min-width:2.5rem;
+    font-size:1.4rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: hsl(183, 42%, 90%);
+}
+
+.pagination {
+  width: 80%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: center;
+}
+.pagination li {
+  list-style: none;
+  display: inline-block;
+}
+
+.pagination li:not(.next):not(.previous) a {
+  padding: 15px;
+  display: block;
+}
+
+.pagination .next {
+  justify-self: end;
+}
+
+.pagination .previous {
+  justify-self: start;
+}

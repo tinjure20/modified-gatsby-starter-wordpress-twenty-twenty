@@ -1,0 +1,63 @@
+/* Morten */
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 0;
+}
+
+.navigation li {
+  margin: 0 0.5rem;
+  list-style-type: none;
+  font-size: 1.1rem;
+}
+
+.navigation a {
+  display: block;
+  line-height: 2;
+  text-decoration: none;
+  color: #414141;
+  font-size: 1rem;
+}
+/*
+.navigation a:hover {
+  text-decoration: underline;
+}
+*/
+
+.navigation li a:focus,
+.navigation li a:hover {
+  border-bottom: 2px solid #ee5151;
+}
+
+@media screen and (max-width: 40rem) {
+  .navigation::before,
+  .navigation::after {
+    display: block;
+    width: 1rem;
+    margin: 1rem auto;
+    content: "";
+    border-bottom: 2px solid currentColor;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1rem;
+  }
+
+  .navigation ul {
+    margin: 0;
+    justify-content: flex-end;
+  }
+
+  .navigation li {
+    margin-right: 0;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+  }
+}

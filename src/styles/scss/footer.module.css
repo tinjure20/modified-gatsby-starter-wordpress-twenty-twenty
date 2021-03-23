@@ -1,0 +1,14 @@
+/* src/styles/scss/footer.module.css */
+.colophon {
+  margin: 0;
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  clear: both;
+}
+
+.colophon a:hover {
+  text-decoration: underline;
+}

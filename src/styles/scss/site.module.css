@@ -1,0 +1,39 @@
+
+ .site_main {
+  /* background-color: whiteSmoke; */
+  background: var(--main-bg-light);
+ }
+ 
+ .site_content {
+   padding: 2rem 1rem 1rem;
+ }
+ /*
+ .site_content::not(.entry_title) a:hover {
+   color: #000;
+   text-decoration: underline!important;
+ }
+ */
+ .site_content img {
+   display: block;
+   width: 100vw;
+ }
+ 
+ @media screen and (min-width: 600px) {
+   .site_content {
+     padding: 2rem;
+     /*padding-top: 5rem; */
+   }
+   .site_content img {
+     display: block;
+     width: inherit;
+   }
+ }
+ 
+ @media screen and (min-width: 600px) {
+   .site_content {
+       width: 780px;
+       margin: 0 auto;
+       font-size: 1.125rem;
+   }
+ 
+ }

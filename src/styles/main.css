@@ -1,0 +1,23 @@
+/* src/components/styles/main css */
+
+/*--------------------------------------------------------------
+* Global & resets
+--------------------------------------------------------------*/
+@import 'base/reset.css';
+@import 'base/variables.css';
+
+/*--------------------------------------------------------------
+*  Site 
+--------------------------------------------------------------*/
+@import 'scss/pagination.css';
+@import 'scss/elements.css';
+@import 'scss/site.module.css';
+@import 'scss/header.module.css';
+@import 'scss/pagination.css';
+@import 'scss/postNavigation.css';
+
+/* @import 'scss/post.module.css'; */
+
+/*--------------------------------------------------------------
+*  Site 
+--------------------------------------------------------------*/
